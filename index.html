@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WH William Henry | Premium Summer Tees 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700;900&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="shortcut icon" href="Images/circle-logo.png" type="image/jpg">
+</head>
+<body>
+<nav id="navbar">
+  <div class="nav-logo"><a href="index.html">WH</a> <span>William Henry</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#products">Collection</a></li>
+    
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#bulk">Wholesale</a></li>
+    <li><a href="#order">Order</a></li>
+  </ul>
+  <a href="#support" class="nav-cta">Contact Us</a>
+  <button class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">🔥 Summer Collection 2026 — Now Available</div>
+    <h1>WH<br><span class="gold">William</span><br>Henry</h1>
+    <p class="hero-sub">Wear the Hustle. Own the Summer.</p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-gold">Shop Collection</a>
+      <a href="https://wa.me/923353397964?text=Hi%20WH%20William%20Henry!%20I%20want%20to%20place%20an%20order%20%F0%9F%9B%8D%EF%B8%8F" target="_blank" class="btn-outline">💬 WhatsApp Order</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">9</div><div class="stat-label">Styles</div></div>
+      <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Stock Available</div></div>
+      <div class="stat"><div class="stat-num">COD</div><div class="stat-label">Available</div></div>
+      <div class="stat"><div class="stat-num">PKR 250</div><div class="stat-label">Delivery</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>WH WILLIAM HENRY</span><span>✦</span><span>SUMMER 2026</span><span>✦</span><span>PREMIUM DRY-FIT</span><span>✦</span><span>COD AVAILABLE</span><span>✦</span><span>IN STOCK NOW</span><span>✦</span><span>NATIONWIDE DELIVERY</span><span>✦</span>
+    <span>WH WILLIAM HENRY</span><span>✦</span><span>SUMMER 2026</span><span>✦</span><span>PREMIUM DRY-FIT</span><span>✦</span><span>COD AVAILABLE</span><span>✦</span><span>IN STOCK NOW</span><span>✦</span><span>NATIONWIDE DELIVERY</span><span>✦</span>
+  </div>
+</div>
+
+<div class="avail-banner">
+  <div class="avail-inner">
+    <div class="avail-item"><div class="avail-dot"></div> In Stock — Ready to Ship</div>
+    <div class="avail-item"><div class="avail-dot"></div> All Sizes Available (S to XXL)</div>
+    <div class="avail-item"><div class="avail-dot"></div> Multiple Pieces Per Style</div>
+    <div class="avail-item"><div class="avail-dot"></div> Fast Nationwide Delivery</div>
+  </div>
+</div>
+
+<section id="products">
+  <div class="products-header reveal">
+    <div>
+      <div class="section-label">Our Collection</div>
+      <h2 class="section-title">Summer Tees<br>2026 Drop</h2>
+      <p style="color:var(--muted);font-size:13px;margin-top:8px;">9 styles · Multiple pieces each · All sizes S–XXL in stock</p>
+    </div>
+    <div class="filter-tabs">
+      <button class="filter-btn active" onclick="filterProducts('all',this)">All (9)</button>
+      <button class="filter-btn" onclick="filterProducts('dryfit',this)">Dry-Fit</button>
+      <button class="filter-btn" onclick="filterProducts('graphic',this)">Graphic</button>
+      <button class="filter-btn" onclick="filterProducts('colorblock',this)">Colorblock</button>
+    </div>
+  </div>
+  <div class="products-grid" id="productsGrid"></div>
+</section>
+
+<section id="why">
+  <div style="text-align:center;max-width:560px;margin:0 auto 52px;" class="reveal">
+    <div class="section-label">Why Choose WH</div>
+    <h2 class="section-title">Built Different.<br>Priced Honest.</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card reveal"><span class="why-icon">🧵</span><div class="why-title">Premium Fabric</div><div class="why-desc">Lightweight dry-fit &amp; cotton blends made for Pakistan's summer. Breathes better, lasts longer.</div></div>
+    <div class="why-card reveal"><span class="why-icon">💰</span><div class="why-title">Honest Pricing</div><div class="why-desc">We show you exactly where your money goes. Sourcing + ads + profit — fully transparent.</div></div>
+    <div class="why-card reveal"><span class="why-icon">📦</span><div class="why-title">Always In Stock</div><div class="why-desc">Multiple pieces in all 9 styles. Every size from S to XXL ready to ship today.</div></div>
+    <div class="why-card reveal"><span class="why-icon">🚚</span><div class="why-title">Fast Delivery</div><div class="why-desc">Nationwide delivery in 3–5 days for PKR 250. COD available — pay when it arrives.</div></div>
+    <div class="why-card reveal"><span class="why-icon">💬</span><div class="why-title">WhatsApp Support</div><div class="why-desc">Direct line to us 24/7. Order tracking, sizing help, any query — we respond fast.</div></div>
+    <div class="why-card reveal"><span class="why-icon">🔄</span><div class="why-title">Easy Returns</div><div class="why-desc">Not satisfied? Message us on WhatsApp and we make it right. Your trust matters.</div></div>
+  </div>
+</section>
+
+<div class="bulk-section reveal" id="bulk">
+  <div class="section-label">Wholesale & Bulk</div>
+  <h2>Buying in <span>Bulk?</span></h2>
+  <p>Special prices for bulk and wholesale orders. Resellers, retailers &amp; businesses welcome. Message us for custom pricing.</p>
+  <div class="bulk-perks">
+    <div class="bulk-perk">🎁 <span>Special Discount</span> on 10+ pieces</div>
+    <div class="bulk-perk">🚚 <span>Free Delivery</span> on large orders</div>
+    <div class="bulk-perk">🤝 <span>Reseller Program</span> available</div>
+    <div class="bulk-perk">⚡ <span>Priority Dispatch</span> for bulk</div>
+  </div>
+  <a href="https://wa.me/923353397964?text=Hi%20WH%20William%20Henry!%20I%20am%20interested%20in%20a%20bulk%2Fwholesale%20order.%20Please%20share%20your%20best%20prices!" target="_blank" class="wa-btn-big">💬 &nbsp; WhatsApp for Bulk Price</a>
+</div>
+
+<section id="order">
+  <div class="order-wrapper">
+    <div class="order-left reveal">
+      <div class="section-label">Place Your Order</div>
+      <h2>Order Now,<br><span>Pay on</span><br>Delivery.</h2>
+      <p>Fill the form or message us directly on WhatsApp. COD available all over Pakistan. Delivery in 3–5 working days.</p>
+      <div class="pay-methods">
+        <div class="pay-card"><div class="pay-icon">💵</div><div><div class="pay-name">Cash on Delivery (COD)</div><div class="pay-detail">Pay when your parcel arrives — zero risk</div></div></div>
+        <div class="pay-card"><div class="pay-icon">📱</div><div><div class="pay-name">EasyPaisa</div><div class="pay-detail">03353397964</div></div></div>
+        <div class="pay-card"><div class="pay-icon">📱</div><div><div class="pay-name">JazzCash</div><div class="pay-detail">03005460346</div></div></div>
+        <div class="pay-card"><div class="pay-icon">🏦</div><div><div class="pay-name">MCB Bank — Asif Nawaz</div><div class="pay-detail">1683873021010052 &nbsp;|&nbsp; IBAN: PK27MUCB1683873021010052</div></div></div>
+      </div>
+      <a href="https://wa.me/923353397964?text=Hi%20WH%20William%20Henry!%20I%20want%20to%20place%20an%20order%20%F0%9F%9B%8D%EF%B8%8F" target="_blank" class="wa-btn">💬 &nbsp; Order Directly on WhatsApp</a>
+    </div>
+    <div class="order-right reveal">
+      <div class="order-form" id="orderForm">
+        <div class="form-title">Order Form</div>
+        <div class="form-subtitle">We'll confirm your order on WhatsApp within minutes</div>
+        <div class="form-group"><label class="form-label">Full Name *</label><input type="text" class="form-input" id="custName" placeholder="Your full name"></div>
+        <div class="form-row">
+          <div class="form-group"><label class="form-label">Phone *</label><input type="tel" class="form-input" id="custPhone" placeholder="03XXXXXXXXX"></div>
+          <div class="form-group"><label class="form-label">City *</label><input type="text" class="form-input" id="custCity" placeholder="Your city"></div>
+        </div>
+        <div class="form-group"><label class="form-label">Full Address *</label><textarea class="form-textarea" id="custAddress" placeholder="House no, street, area..."></textarea></div>
+        <div class="form-group"><label class="form-label">Select Style *</label>
+          <select class="form-select" id="custProduct">
+            <option value="">-- Choose a Tee --</option>
+            <option>Olive RUN Dry-Fit Tee — PKR 1,099</option>
+            <option>Yellow/Black Stripe Tee — PKR 1,099</option>
+            <option>Navy/Maroon Colorblock Tee — PKR 1,099</option>
+            <option>William Henry Signature Black — PKR 1,099</option>
+            <option>Hacker Cat Graphic Tee — PKR 1,099</option>
+            <option>DREAM Graphic Tee — PKR 1,099</option>
+            <option>WH Raglan White/Black — PKR 1,099</option>
+            <option>BELIEVE Blue Tee — PKR 1,099</option>
+            <option>Steel Blue WH Essential — PKR 1,099</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label class="form-label">Size *</label>
+            <select class="form-select" id="custSize"><option value="">Size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select>
+          </div>
+          <div class="form-group"><label class="form-label">Quantity</label>
+            <select class="form-select" id="custQty"><option value="1">1 Piece</option><option value="2">2 Pieces</option><option value="3">3 Pieces</option><option value="4">4 Pieces</option><option value="5+">5+ (Bulk)</option></select>
+          </div>
+        </div>
+        <div class="form-group"><label class="form-label">Payment Method *</label>
+          <div class="pay-opts">
+            <label class="pay-opt"><input type="radio" name="payment" value="COD" checked><div><div class="pay-opt-label">💵 Cash on Delivery</div><div class="pay-opt-sub">Pay when you receive</div></div></label>
+            <label class="pay-opt"><input type="radio" name="payment" value="EasyPaisa"><div><div class="pay-opt-label">📱 EasyPaisa</div><div class="pay-opt-sub">03353397964</div></div></label>
+            <label class="pay-opt"><input type="radio" name="payment" value="JazzCash"><div><div class="pay-opt-label">📱 JazzCash</div><div class="pay-opt-sub">03005460346</div></div></label>
+            <label class="pay-opt"><input type="radio" name="payment" value="MCB Bank"><div><div class="pay-opt-label">🏦 MCB Bank Transfer</div><div class="pay-opt-sub">Asif Nawaz | 1683873021010052</div></div></label>
+          </div>
+        </div>
+        <button class="submit-btn" onclick="submitOrder()">SEND ORDER VIA WHATSAPP →</button>
+      </div>
+      <div class="success-msg" id="successMsg">
+        <div class="check">✅</div>
+        <h3>Order Sent!</h3>
+        <p>Your order has been sent to WhatsApp. We'll confirm within minutes. Thank you for choosing WH William Henry!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq-contact-section" id="support">
+    
+    <!-- FAQ SIDE -->
+    <div class="faq-container">
+
+        <div class="section-header">
+            <span class="section-tag">Support</span>
+            <h2>Frequently Asked Questions</h2>
+            <p>Everything you need to know before placing your order.</p>
+        </div>
+
+        <div class="faq-box">
+            <button class="faq-question">
+                How long does delivery take?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+                <p>Delivery usually takes 3-5 working days across Pakistan.</p>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <button class="faq-question">
+                What payment methods are available?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+                <p>We accept Cash on Delivery, EasyPaisa, JazzCash, and Bank Transfer.</p>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <button class="faq-question">
+                Can I exchange the product?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+                <p>Yes, exchanges are available within 7 days for unused products.</p>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <button class="faq-question">
+                Do you offer bulk orders?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+                <p>Yes, we provide wholesale and bulk order deals for resellers.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CONTACT SIDE -->
+    <div class="contact-container">
+
+        <div class="section-header">
+            <span class="section-tag">Contact</span>
+            <h2>Get In Touch</h2>
+            <p>Have questions? Contact our support team anytime.</p>
+        </div>
+
+        <form class="contact-form">
+
+            <div class="input-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+
+            <div class="input-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="input-group">
+                <textarea placeholder="Write your message..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div><div class="footer-logo">WH William Henry</div><p class="footer-desc">Premium summer tees built for Pakistan's heat. 9 styles, all sizes, always in stock. Wear the Hustle — every single day.</p></div>
+    <div class="footer-col"><h4>Quick Links</h4><ul>
+      <li><a href="#products">Collection</a></li>
+      
+      <li><a href="#why">Why WH</a></li>
+      <li><a href="#bulk">Wholesale</a></li>
+      <li><a href="#order">Order Now</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Contact</h4><ul>
+      <li><a href="https://wa.me/923353397964">0335-3397964</a></li>
+      <li><a href="mailto:asifn0093@gmail.com">asifn0093@gmail.com</a></li>
+      <li><a href="#">JazzCash: 0300-5460346</a></li>
+      <li><a href="#">MCB: Asif Nawaz</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 WH William Henry. All rights reserved.</p>
+    <p style="color:gold;">Wear the Hustle. Own the Summer. 🔥</p>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="section-label">Quick Order</div>
+    <h3 id="modalTitle">Order Tee</h3>
+    <div class="modal-pname" id="modalProduct"></div>
+    <div class="modal-price">PKR 1,099 + PKR 250 delivery = <strong>PKR 1,349 total</strong></div>
+    <img id="modalImg" class="modal-img" src="" alt="">
+    <div class="form-group"><label class="form-label">Your Name</label><input type="text" class="form-input" id="modalName" placeholder="Full name"></div>
+    <div class="form-group"><label class="form-label">Phone Number</label><input type="tel" class="form-input" id="modalPhone" placeholder="03XXXXXXXXX"></div>
+    <div class="form-row">
+      <div class="form-group"><label class="form-label">Size</label><select class="form-select" id="modalSize"><option>S</option><option>M</option><option selected>L</option><option>XL</option><option>XXL</option></select></div>
+      <div class="form-group"><label class="form-label">City</label><input type="text" class="form-input" id="modalCity" placeholder="Your city"></div>
+    </div>
+    <button class="submit-btn" onclick="submitModalOrder()">ORDER ON WHATSAPP →</button>
+  </div>
+</div>
+
+<div class="toast" id="toast">✅ Order sent to WhatsApp!</div>
+<script src="JS/script.js"></script>
+</body>
+</html>
